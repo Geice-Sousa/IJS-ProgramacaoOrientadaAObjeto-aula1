@@ -2,17 +2,16 @@ class InvoiceItem {
     id;
     description;
     quantity;
-    unityPrice; // aqui estão descritos os atributos e o parametro do constructor são os valores
+    unityPrice;
 
     constructor(id, description, quantity, unityPrice){
         this.id = id;
         this.description = description;
         this.quantity = quantity;
-        this.unityPrice = unityPrice;
+        this.unityPrice = unityPrice
     }
-
 }
 
-const recibo = new InvoiceItem(2, 'arroz', 3, 4.50)
+const newPurchase = new InvoiceItem (1, "papel higiênco", 2, 27 )
 
-console.log(recibo)
+console.log(newPurchase);
